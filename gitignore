@@ -1,0 +1,113 @@
+# Compiled files
+*.com
+*.exe
+*.dll
+*.so
+*.dylib
+*.o
+*.obj
+*.a
+*.lib
+*.out
+*.app
+
+# Build directories
+/build/
+/dist/
+/target/
+/cmake-build-*/
+/.vs/
+/.vscode/
+/.idea/
+*.swp
+*.swo
+*~
+
+# Python
+__pycache__/
+*.py[cod]
+*.so
+.Python
+env/
+venv/
+.env
+.venv
+pip-log.txt
+pip-delete-this-directory.txt
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Node.js
+node_modules/
+npm-debug.log
+yarn-error.log
+package-lock.json
+yarn.lock
+
+# Java / Kotlin
+*.class
+*.jar
+*.war
+*.ear
+target/
+.idea/
+*.iml
+.gradle/
+build/
+.gradle/
+
+# Rust
+/target/
+Cargo.lock
+
+# Go
+*.exe
+*.test
+*.out
+/bin/
+/pkg/
+/vendor/
+
+# IDE and editors
+.vscode/
+.idea/
+*.sublime-*
+.project
+.classpath
+.settings/
+
+# OS generated files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+desktop.ini
+
+# Logs and databases
+*.log
+*.sql
+*.sqlite
+*.db
+
+# Secrets and environment
+.env
+.env.local
+.env.*.local
+*.pem
+*.key
+*.crt
+
+# Temporary files
+*.tmp
+*.temp
+*.cache
+*.bak
+
+# Project specific (adjust as needed)
+# For Uralaz-2 – если используете CMake:
+# CMakeLists.txt.user
+# CMakeUserPresets.json
